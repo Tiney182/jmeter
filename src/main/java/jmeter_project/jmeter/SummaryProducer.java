@@ -46,9 +46,8 @@ public class SummaryProducer {
 	}
 
 	private void produceSummaryCsv() throws IOException {
-		System.getProperty("user.home");
-		String csv = "C:\\Users\\Andrew\\Desktop\\Summary.csv";
-		CSVWriter writer = new CSVWriter(new FileWriter(csv), ',', CSVWriter.NO_QUOTE_CHARACTER);
+		CSVWriter writer = new CSVWriter(new FileWriter(System.getProperty("user.home" ) + "\\Summary.csv"), ',',
+				CSVWriter.NO_QUOTE_CHARACTER);
 
 		String[] headers = { "Summary", "Count", "Average" };
 		writer.writeNext(headers);
