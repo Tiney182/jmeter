@@ -1,28 +1,30 @@
 package jmeter_project.jmeter;
 
-public class RequestModel {
-  public Integer timeStamp;
-  public Integer elapsed;
-  public String label;
-  public Integer responseCode;
-  public String responseMessage;
-  public String threadName;
-  public String dataType;
-  public String success;
-  public String failureMessage;
-  public Integer bytes;
-  public Integer sentBytes;
-  public Integer grpThreads;
-  public Integer allThreads;
-  public Integer latency;
-  public Integer idleTime;
-  public Integer connect;
+import java.math.BigDecimal;
 
-  public Integer getTimeStamp() {
+public class RequestModel {
+  private BigDecimal timeStamp;
+  private Integer elapsed;
+  private String label;
+  private String responseCode;
+  private String responseMessage;
+  private String threadName;
+  private String dataType;
+  private String success;
+  private String failureMessage;
+  private Integer bytes;
+  private Integer sentBytes;
+  private Integer grpThreads;
+  private Integer allThreads;
+  private Integer latency;
+  private Integer idleTime;
+  private Integer connect;
+
+  public BigDecimal getTimeStamp() {
     return timeStamp;
   }
 
-  public void setTimeStamp(Integer timeStamp) {
+  public void setTimeStamp(BigDecimal timeStamp) {
     this.timeStamp = timeStamp;
   }
 
@@ -42,11 +44,11 @@ public class RequestModel {
     this.label = label;
   }
 
-  public Integer getResponseCode() {
+  public String getResponseCode() {
     return responseCode;
   }
 
-  public void setResponseCode(Integer responseCode) {
+  public void setResponseCode(String responseCode) {
     this.responseCode = responseCode;
   }
 
