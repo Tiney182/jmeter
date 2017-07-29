@@ -1,6 +1,6 @@
 package jmeter_project.jmeter;
 
-public enum Headers {
+public enum RequestHeaders {
   TIME_STAMP("0"),
   ELAPSED("1"),
   LABEL("2"),
@@ -20,7 +20,7 @@ public enum Headers {
 
   private String code;
 
-  Headers(String url) {
+  RequestHeaders(String url) {
       this.code = url;
   }
 

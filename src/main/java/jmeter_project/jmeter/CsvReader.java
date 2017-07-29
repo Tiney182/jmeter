@@ -1,21 +1,21 @@
 package jmeter_project.jmeter;
 
-import static jmeter_project.jmeter.Headers.ALL_THREADS;
-import static jmeter_project.jmeter.Headers.BYTES;
-import static jmeter_project.jmeter.Headers.CONNECT;
-import static jmeter_project.jmeter.Headers.DATA_TYPE;
-import static jmeter_project.jmeter.Headers.ELAPSED;
-import static jmeter_project.jmeter.Headers.FAILURE_MESSAGE;
-import static jmeter_project.jmeter.Headers.GRP_THREADS;
-import static jmeter_project.jmeter.Headers.IDLE_TIME;
-import static jmeter_project.jmeter.Headers.LABEL;
-import static jmeter_project.jmeter.Headers.LATENCY;
-import static jmeter_project.jmeter.Headers.RESPONSE_CODE;
-import static jmeter_project.jmeter.Headers.RESPONSE_MESSAGE;
-import static jmeter_project.jmeter.Headers.SENT_BYTES;
-import static jmeter_project.jmeter.Headers.SUCCESS;
-import static jmeter_project.jmeter.Headers.THREAD_NAME;
-import static jmeter_project.jmeter.Headers.TIME_STAMP;
+import static jmeter_project.jmeter.RequestHeaders.ALL_THREADS;
+import static jmeter_project.jmeter.RequestHeaders.BYTES;
+import static jmeter_project.jmeter.RequestHeaders.CONNECT;
+import static jmeter_project.jmeter.RequestHeaders.DATA_TYPE;
+import static jmeter_project.jmeter.RequestHeaders.ELAPSED;
+import static jmeter_project.jmeter.RequestHeaders.FAILURE_MESSAGE;
+import static jmeter_project.jmeter.RequestHeaders.GRP_THREADS;
+import static jmeter_project.jmeter.RequestHeaders.IDLE_TIME;
+import static jmeter_project.jmeter.RequestHeaders.LABEL;
+import static jmeter_project.jmeter.RequestHeaders.LATENCY;
+import static jmeter_project.jmeter.RequestHeaders.RESPONSE_CODE;
+import static jmeter_project.jmeter.RequestHeaders.RESPONSE_MESSAGE;
+import static jmeter_project.jmeter.RequestHeaders.SENT_BYTES;
+import static jmeter_project.jmeter.RequestHeaders.SUCCESS;
+import static jmeter_project.jmeter.RequestHeaders.THREAD_NAME;
+import static jmeter_project.jmeter.RequestHeaders.TIME_STAMP;
 
 import java.io.File;
 import java.io.FileReader;
